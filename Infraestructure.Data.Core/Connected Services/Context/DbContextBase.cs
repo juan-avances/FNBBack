@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Threading;
-using System.Threading.Tasks;
-using Domain.Core.Auditory;
-using Infraestructure.Data.Core.EntityConfig;
+﻿using Infraestructure.Data.Core.EntityConfig;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 

@@ -13,7 +13,7 @@ namespace Infraestructure.Data.Core.Extensions
             string sqlQuery, object parameters = null, IDbTransaction transaction = null,
             int? commandTimeout = null, CommandType? commandType = null)
         {
-            var connection = dbContext.Database.GetDbConnection();
+            var connection = dbContext.Database;
             return await connection.QueryAsync<T>(sqlQuery, parameters, transaction, commandTimeout, commandType);
         }
 
@@ -27,7 +27,7 @@ namespace Infraestructure.Data.Core.Extensions
         public static async Task ExecuteNonQueryAsync(this DbContext dbContext, string sqlQuery,
             object parameters = null, IDbTransaction transaction = null, int? commandTimeout = null)
         {
-            var connection = dbContext.Database.GetDbConnection();
+            var connection = dbContext.Database..GetDbConnection();
 
             await connection.ExecuteAsync(sqlQuery, parameters, transaction, commandTimeout, CommandType.Text);
         }
