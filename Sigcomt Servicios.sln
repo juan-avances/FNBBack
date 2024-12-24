@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.5 - Infraestructure", "1.5 - Infraestructure", "{760D0383-0020-4B8C-BB58-E77DD747F8E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.5.1 - Data", "1.5.1 - Data", "{D26E564C-6200-47E8-B60B-70BF3AFAF46C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.5.2 - Crosscutting", "1.5.2 - Crosscutting", "{084C7A63-F663-4DC8-94A7-6059C3430828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructure.Data.Core", "Infraestructure.Data.Core\Infraestructure.Data.Core.csproj", "{9B04462E-EB97-4D85-8E4A-37F78A3A3579}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B04462E-EB97-4D85-8E4A-37F78A3A3579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B04462E-EB97-4D85-8E4A-37F78A3A3579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B04462E-EB97-4D85-8E4A-37F78A3A3579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B04462E-EB97-4D85-8E4A-37F78A3A3579}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D26E564C-6200-47E8-B60B-70BF3AFAF46C} = {760D0383-0020-4B8C-BB58-E77DD747F8E2}
+		{084C7A63-F663-4DC8-94A7-6059C3430828} = {760D0383-0020-4B8C-BB58-E77DD747F8E2}
+		{9B04462E-EB97-4D85-8E4A-37F78A3A3579} = {D26E564C-6200-47E8-B60B-70BF3AFAF46C}
+	EndGlobalSection
+EndGlobal
